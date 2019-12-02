@@ -10,8 +10,19 @@
     "category": "Uncategorized",
     "version": "12.0.1.0.0",
     "license": "AGPL-3",
-    "depends": ["housing_cooperative_base", "l10n_ch_states"],
-    "data": ["data/data.xml", "views/building.xml", "views/housing.xml"],
+    "depends": [
+        "housing_cooperative_base",
+        "l10n_ch_states",
+        "l10n_ch_payment_slip",
+    ],
+    "data": [
+        "data/data.xml",
+        "views/building.xml",
+        "views/housing.xml",
+        "demo/demo.xml",  # fixme
+    ],
     "installable": True,
     "application": False,
+    "pre_init_hook": "pre_init_hook",
+    "post_init_hook": "post_init_hook",
 }

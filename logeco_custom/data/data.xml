@@ -39,5 +39,9 @@
         <field name="name">Non renseigné</field>
     </record>
 
+    <record id="sequence_partner_ref" model="ir.sequence">
+            <field name="name">Partner Reference</field>
+            <field name="code">partner.reference</field>
+    </record>
 
 </odoo>
