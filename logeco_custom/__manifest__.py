@@ -14,6 +14,7 @@
         "housing_cooperative_base",
         "l10n_ch_states",
         "l10n_ch_payment_slip",
+        "l10n_ch_pain_credit_transfer",
     ],
     "data": [
         "data/data.xml",
