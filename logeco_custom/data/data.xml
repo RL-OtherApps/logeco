@@ -46,6 +46,6 @@
             <field name="code">partner.reference</field>
     </record>
 
-    <data/>
+    </data>
 
 </odoo>
