@@ -16,12 +16,8 @@
         "l10n_ch_payment_slip",
         "l10n_ch_pain_credit_transfer",
     ],
-    "data": [
-        "data/data.xml",
-        "views/building.xml",
-        "views/housing.xml",
-        "demo/demo.xml",  # fixme
-    ],
+    "data": ["data/data.xml", "views/building.xml", "views/housing.xml"],
+    "demo": ["demo/demo.xml"],  # fixme
     "installable": True,
     "application": False,
     "pre_init_hook": "pre_init_hook",
