@@ -6,19 +6,17 @@ class Building(models.Model):
 
     country_id = fields.Many2one(default=43)
 
-    surface_hm = fields.Integer(string="Surface HM", required=False, help="m²")
+    surface_hm = fields.Float(string="Surface HM", required=False, help="m²")
     housings_hm = fields.Integer(
         string="Number of HM housings", required=False
     )
 
-    surface_lup = fields.Integer(
-        string="Surface LUP", required=False, help="m²"
-    )
+    surface_lup = fields.Float(string="Surface LUP", required=False, help="m²")
     housings_lup = fields.Integer(
         string="Number of LUP housings", required=False
     )
 
-    surface_zdloc = fields.Integer(
+    surface_zdloc = fields.Float(
         string="Surface ZDLOC", required=False, help="m²"
     )
     housings_zdloc = fields.Integer(
